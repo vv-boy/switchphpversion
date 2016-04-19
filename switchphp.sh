@@ -1,5 +1,5 @@
 #!/bin/bash
-php_fpms=($(locate -ir "/usr/local.*php-fpm$"| awk '{printf "%s ",$1}'))
+php_fpms=($(locate -ir "sbin.*php-fpm$"| awk '{printf "%s ",$1}'))
 
 i=0
 
